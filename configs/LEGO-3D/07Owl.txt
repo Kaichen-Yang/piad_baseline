@@ -1,0 +1,9 @@
+model_name = 07Owl
+output_dir = ./output
+dataset_type = blender
+data_dir = ./data/LEGO-3D
+reflection_dir = ./reflection/LEGO-3D
+ckpt_dir = ./ckpts
+ckpt_name = 07Owl
+white_background = True
+lrate = 0.02

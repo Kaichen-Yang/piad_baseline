@@ -1,0 +1,9 @@
+model_name = 13Wheel
+output_dir = ./output
+dataset_type = colmap
+data_dir = ./data/Colmap
+reflection_dir = ./reflection/Colmap
+ckpt_dir = ./ckpts
+ckpt_name = 13Wheel
+white_background = True
+lrate = 0.02

@@ -1,0 +1,9 @@
+model_name = Teapot
+output_dir = ./output
+dataset_type = blender
+data_dir = ./data/MIP
+reflection_dir = ./reflection/MIP
+ckpt_dir = ./ckpts
+ckpt_name = Teapot
+white_background = True
+lrate = 0.02

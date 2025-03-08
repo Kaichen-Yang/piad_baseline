@@ -1,0 +1,9 @@
+model_name = 14Bearing
+output_dir = ./output
+dataset_type = colmap
+data_dir = ./data/Colmap
+reflection_dir = ./reflection/Colmap
+ckpt_dir = ./ckpts
+ckpt_name = 14Bearing
+white_background = True
+lrate = 0.02

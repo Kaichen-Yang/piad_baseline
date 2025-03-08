@@ -1,0 +1,9 @@
+model_name = 03Cup
+output_dir = ./output
+dataset_type = colmap
+data_dir = ./data/Colmap
+reflection_dir = ./reflection/Colmap
+ckpt_dir = ./ckpts
+ckpt_name = 03Cup
+white_background = True
+lrate = 0.02

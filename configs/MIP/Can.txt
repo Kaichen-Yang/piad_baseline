@@ -1,0 +1,9 @@
+model_name = Can
+output_dir = ./output
+dataset_type = blender
+data_dir = ./data/MIP
+reflection_dir = ./reflection/MIP
+ckpt_dir = ./ckpts
+ckpt_name = Can
+white_background = True
+lrate = 0.02
