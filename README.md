@@ -15,17 +15,17 @@ The codebase has 4 main components:
 
 #### Local Setup
 
-First, you need to install the required packages. You can create a new conda environment and then run:
+First, you need to install the required packages. You can create a new conda environment (python=3.8) and then run:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-And then download the pre-trained EfficientNet-B4 weights and put them in corresponding file location. Due to CVPR's restrictions on supplementary materials, we cannot provide any form of links. However, you can follow the instructions in the [NeurIPS 2023] *PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection* GitHub repository's README to download these weights.
+And then download the pre-trained EfficientNet-B4 weights from the [PAD GitHub repository](https://github.com/EricLee0224/PAD) and put them in corresponding file location.
 
 ```
 cd retrieval
-gdown <you can find this link in PAD's GitHub repository>
+gdown https://drive.google.com/uc\?id\=16FOwaqQE0NGY-1EpfoNlU0cGlHjATV0V
 unzip model.zip
 ```
 
@@ -49,6 +49,7 @@ EfficientLoFTR
 ### Datasets
 
 You can download the MAD dataset from the PAD GitHub repository, and it should be placed in `./data/LEGO-3D/`.  
+You can download our dataset from [here](https://drive.google.com/file/d/13UjRuIQqg_gVAXxJf4T8PIj_QeJ204rD/view?usp=drive_link), and it should be placed in `./data/MIP/` (for synthetic data) or `./data/Colmap/` (for real data).
 Alternatively, you can use the example data `Spring` and `05Joint`, which has already been placed in `./data/MIP/`and `./data/Colmap/`.
 
 ### Running (Pose Estimation)
