@@ -81,5 +81,11 @@ python AUROC_TEST.py --obj <class_name>
 
 it saves the results to `./AD_result`.
 
+## Acknowledgement
+This work is built on many amazing research works:
+1. [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting)
+2. [PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection](https://github.com/EricLee0224/PAD)
+3. [URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement](https://github.com/AndersonYong/URetinex-Net)
+4. [Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed](https://github.com/zju3dv/EfficientLoFTR)
 ## Project Page
 Our Project Page is [[here](https://kaichen-yang.github.io/piad)](https://kaichen-yang.github.io/piad).
