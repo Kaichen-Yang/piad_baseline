@@ -1,8 +1,17 @@
 # PIAD: Pose and Illumination agnostic Anomaly Detection
 
-Abstract: *We introduce the Pose and Illumination agnostic Anomaly Detection (PIAD) problem, a generalization of pose-agnostic anomaly detection (PAD). Being illumination agnostic is critical, as it relaxes the assumption that training data for an object has to be acquired in the same light configuration of the query images that we want to test. Moreover, even if the object is placed within the same capture environment, being illumination agnostic implies that we can relax the assumption that the relative pose between environment light and query object has to match the one in the training data. We introduce a new dataset to study this problem, containing both synthetic and real-world examples, propose a new baseline for PIAD, and demonstrate how our baseline provides state-of-the-art results in both PAD and PIAD, not only in the new proposed dataset, but also in existing datasets that were designed for the simpler PAD problem. Source code and data will be made publicly available upon paper acceptance.*
+## Poster
+<p align="center">
+  <img src="assets/PIAD_poster_version_m_5.png"  width="100%">
+</p>
+
+## Abstract
+*We introduce the Pose and Illumination agnostic Anomaly Detection (PIAD) problem, a generalization of pose-agnostic anomaly detection (PAD). Being illumination agnostic is critical, as it relaxes the assumption that training data for an object has to be acquired in the same light configuration of the query images that we want to test. Moreover, even if the object is placed within the same capture environment, being illumination agnostic implies that we can relax the assumption that the relative pose between environment light and query object has to match the one in the training data. We introduce a new dataset to study this problem, containing both synthetic and real-world examples, propose a new baseline for PIAD, and demonstrate how our baseline provides state-of-the-art results in both PAD and PIAD, not only in the new proposed dataset, but also in existing datasets that were designed for the simpler PAD problem. Source code and data will be made publicly available upon paper acceptance.*
 
 ## Overview
+<p align="center">
+  <img src="assets/pipline.png"  width="100%">
+</p>
 
 The codebase has 4 main components:
 
@@ -21,7 +30,7 @@ First, you need to install the required packages. You can create a new conda env
 pip install -r requirements.txt
 ```
 
-And then download the pre-trained EfficientNet-B4 weights from the [PAD GitHub repository](https://github.com/EricLee0224/PAD) and put them in corresponding file location.
+And then download the pre-trained EfficientNet-B4 weights from the [PAD GitHub repository](https://github.com/EricLee0224/PAD) and put them in corresponding file location:
 
 ```
 cd retrieval
@@ -71,3 +80,6 @@ python AUROC_TEST.py --obj <class_name>
 ```
 
 it saves the results to `./AD_result`.
+
+## Project Page
+Our Project Page is [[here](https://kaichen-yang.github.io/piad)](https://kaichen-yang.github.io/piad).
