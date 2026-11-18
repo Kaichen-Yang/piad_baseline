@@ -1,5 +1,7 @@
 # PIAD: Pose and Illumination agnostic Anomaly Detection
 
+[![Papers with Code: SOTA on MAD-SIM](https://paperswithcode.co/api/v1/papers/119978/leaderboard-badge.svg?eval=48798&live=1)](https://paperswithcode.co/api/v1/papers/119978/leaderboard-badge-link?eval=48798)
+
 ## Poster
 <p align="center">
   <img src="assets/PIAD_poster_version_m_5.png"  width="100%">
